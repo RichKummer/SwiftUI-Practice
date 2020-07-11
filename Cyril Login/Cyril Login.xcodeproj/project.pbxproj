@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B14E611248EE50900303210 /* LottieLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14E610248EE50900303210 /* LottieLogin.swift */; };
+		3B14E613248EE57800303210 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B14E612248EE57800303210 /* Home.swift */; };
+		3B4C654024A4057A00D91168 /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B4C653F24A4057A00D91168 /* Login.json */; };
+		3B9B452C248EE0F000C074F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B452B248EE0F000C074F3 /* AppDelegate.swift */; };
+		3B9B452E248EE0F000C074F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B452D248EE0F000C074F3 /* SceneDelegate.swift */; };
+		3B9B4530248EE0F000C074F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B452F248EE0F000C074F3 /* ContentView.swift */; };
+		3B9B4532248EE0F100C074F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9B4531248EE0F100C074F3 /* Assets.xcassets */; };
+		3B9B4535248EE0F100C074F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B9B4534248EE0F100C074F3 /* Preview Assets.xcassets */; };
+		3B9B4538248EE0F100C074F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B9B4536248EE0F100C074F3 /* LaunchScreen.storyboard */; };
+		3B9B4541248EE18C00C074F3 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 3B9B4540248EE18C00C074F3 /* Lottie */; };
+		3B9B4543248EE1EB00C074F3 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B4542248EE1EB00C074F3 /* LottieView.swift */; };
+		3BEFEB0F248EE2D800452AAD /* Login.json in Resources */ = {isa = PBXBuildFile; fileRef = 3BEFEB0E248EE2D800452AAD /* Login.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3B14E610248EE50900303210 /* LottieLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieLogin.swift; sourceTree = "<group>"; };
+		3B14E612248EE57800303210 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3B4C653F24A4057A00D91168 /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = Login.json; path = ../Login.json; sourceTree = "<group>"; };
+		3B9B4528248EE0EF00C074F3 /* Cyril Login.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cyril Login.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B9B452B248EE0F000C074F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3B9B452D248EE0F000C074F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3B9B452F248EE0F000C074F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B9B4531248EE0F100C074F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B9B4534248EE0F100C074F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B9B4537248EE0F100C074F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B9B4539248EE0F100C074F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B9B4542248EE1EB00C074F3 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		3BEFEB0E248EE2D800452AAD /* Login.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Login.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B9B4525248EE0EF00C074F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9B4541248EE18C00C074F3 /* Lottie in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B9B451F248EE0EF00C074F3 = {
+			isa = PBXGroup;
+			children = (
+				3B9B452A248EE0EF00C074F3 /* Cyril Login */,
+				3BEFEB10248EE2DD00452AAD /* LottieAnimations */,
+				3B9B4529248EE0EF00C074F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B9B4529248EE0EF00C074F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B9B4528248EE0EF00C074F3 /* Cyril Login.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B9B452A248EE0EF00C074F3 /* Cyril Login */ = {
+			isa = PBXGroup;
+			children = (
+				3B9B452B248EE0F000C074F3 /* AppDelegate.swift */,
+				3B9B452D248EE0F000C074F3 /* SceneDelegate.swift */,
+				3B9B452F248EE0F000C074F3 /* ContentView.swift */,
+				3B9B4542248EE1EB00C074F3 /* LottieView.swift */,
+				3B14E610248EE50900303210 /* LottieLogin.swift */,
+				3B14E612248EE57800303210 /* Home.swift */,
+				3BEFEB0D248EE2D800452AAD /* LottieAnimations */,
+				3B9B4531248EE0F100C074F3 /* Assets.xcassets */,
+				3B9B4536248EE0F100C074F3 /* LaunchScreen.storyboard */,
+				3B9B4539248EE0F100C074F3 /* Info.plist */,
+				3B9B4533248EE0F100C074F3 /* Preview Content */,
+			);
+			path = "Cyril Login";
+			sourceTree = "<group>";
+		};
+		3B9B4533248EE0F100C074F3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B9B4534248EE0F100C074F3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BEFEB0D248EE2D800452AAD /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+				3B4C653F24A4057A00D91168 /* Login.json */,
+				3BEFEB0E248EE2D800452AAD /* Login.json */,
+			);
+			name = LottieAnimations;
+			path = ../../../../Downloads/LottieAnimations;
+			sourceTree = "<group>";
+		};
+		3BEFEB10248EE2DD00452AAD /* LottieAnimations */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LottieAnimations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B9B4527248EE0EF00C074F3 /* Cyril Login */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B9B453C248EE0F100C074F3 /* Build configuration list for PBXNativeTarget "Cyril Login" */;
+			buildPhases = (
+				3B9B4524248EE0EF00C074F3 /* Sources */,
+				3B9B4525248EE0EF00C074F3 /* Frameworks */,
+				3B9B4526248EE0EF00C074F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Cyril Login";
+			packageProductDependencies = (
+				3B9B4540248EE18C00C074F3 /* Lottie */,
+			);
+			productName = "Cyril Login";
+			productReference = 3B9B4528248EE0EF00C074F3 /* Cyril Login.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B9B4520248EE0EF00C074F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Rich Kummer";
+				TargetAttributes = {
+					3B9B4527248EE0EF00C074F3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 3B9B4523248EE0EF00C074F3 /* Build configuration list for PBXProject "Cyril Login" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B9B451F248EE0EF00C074F3;
+			packageReferences = (
+				3B9B453F248EE18C00C074F3 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
+			productRefGroup = 3B9B4529248EE0EF00C074F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B9B4527248EE0EF00C074F3 /* Cyril Login */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B9B4526248EE0EF00C074F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9B4538248EE0F100C074F3 /* LaunchScreen.storyboard in Resources */,
+				3B4C654024A4057A00D91168 /* Login.json in Resources */,
+				3B9B4535248EE0F100C074F3 /* Preview Assets.xcassets in Resources */,
+				3B9B4532248EE0F100C074F3 /* Assets.xcassets in Resources */,
+				3BEFEB0F248EE2D800452AAD /* Login.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B9B4524248EE0EF00C074F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B9B452C248EE0F000C074F3 /* AppDelegate.swift in Sources */,
+				3B14E611248EE50900303210 /* LottieLogin.swift in Sources */,
+				3B9B452E248EE0F000C074F3 /* SceneDelegate.swift in Sources */,
+				3B9B4530248EE0F000C074F3 /* ContentView.swift in Sources */,
+				3B14E613248EE57800303210 /* Home.swift in Sources */,
+				3B9B4543248EE1EB00C074F3 /* LottieView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3B9B4536248EE0F100C074F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B9B4537248EE0F100C074F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B9B453A248EE0F100C074F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B9B453B248EE0F100C074F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B9B453D248EE0F100C074F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyril Login/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cyril Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Cyril-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B9B453E248EE0F100C074F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_ASSET_PATHS = "\"Cyril Login/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Cyril Login/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Cyril-Login";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B9B4523248EE0EF00C074F3 /* Build configuration list for PBXProject "Cyril Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9B453A248EE0F100C074F3 /* Debug */,
+				3B9B453B248EE0F100C074F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B9B453C248EE0F100C074F3 /* Build configuration list for PBXNativeTarget "Cyril Login" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B9B453D248EE0F100C074F3 /* Debug */,
+				3B9B453E248EE0F100C074F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3B9B453F248EE18C00C074F3 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3B9B4540248EE18C00C074F3 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3B9B453F248EE18C00C074F3 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3B9B4520248EE0EF00C074F3 /* Project object */;
+}
