@@ -30,6 +30,7 @@ struct OnboardingThree: View {
                     .multilineTextAlignment(.center)
                     .lineSpacing(3)
                     .padding(.horizontal, 20)
+                    .padding(.bottom, 40)
                 
             }
         }

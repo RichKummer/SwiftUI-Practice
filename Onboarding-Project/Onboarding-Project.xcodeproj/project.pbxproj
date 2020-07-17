@@ -15,7 +15,7 @@
 		3B57CFE924BD088000E42662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B57CFE724BD088000E42662 /* LaunchScreen.storyboard */; };
 		3B57CFF124BD113400E42662 /* OnboardingTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57CFF024BD113400E42662 /* OnboardingTwo.swift */; };
 		3B57CFF324BD116100E42662 /* OnboardingOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57CFF224BD116100E42662 /* OnboardingOne.swift */; };
-		3B57CFF524BD12F500E42662 /* OmboardingThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57CFF424BD12F500E42662 /* OmboardingThree.swift */; };
+		3B57CFF524BD12F500E42662 /* OnboardingThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B57CFF424BD12F500E42662 /* OnboardingThree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +29,7 @@
 		3B57CFEA24BD088000E42662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B57CFF024BD113400E42662 /* OnboardingTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingTwo.swift; sourceTree = "<group>"; };
 		3B57CFF224BD116100E42662 /* OnboardingOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingOne.swift; sourceTree = "<group>"; };
-		3B57CFF424BD12F500E42662 /* OmboardingThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmboardingThree.swift; sourceTree = "<group>"; };
+		3B57CFF424BD12F500E42662 /* OnboardingThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingThree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 				3B57CFE024BD087F00E42662 /* ContentView.swift */,
 				3B57CFF224BD116100E42662 /* OnboardingOne.swift */,
 				3B57CFF024BD113400E42662 /* OnboardingTwo.swift */,
-				3B57CFF424BD12F500E42662 /* OmboardingThree.swift */,
+				3B57CFF424BD12F500E42662 /* OnboardingThree.swift */,
 				3B57CFE224BD088000E42662 /* Assets.xcassets */,
 				3B57CFE724BD088000E42662 /* LaunchScreen.storyboard */,
 				3B57CFEA24BD088000E42662 /* Info.plist */,
@@ -159,7 +159,7 @@
 				3B57CFF124BD113400E42662 /* OnboardingTwo.swift in Sources */,
 				3B57CFF324BD116100E42662 /* OnboardingOne.swift in Sources */,
 				3B57CFDF24BD087F00E42662 /* SceneDelegate.swift in Sources */,
-				3B57CFF524BD12F500E42662 /* OmboardingThree.swift in Sources */,
+				3B57CFF524BD12F500E42662 /* OnboardingThree.swift in Sources */,
 				3B57CFE124BD087F00E42662 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
