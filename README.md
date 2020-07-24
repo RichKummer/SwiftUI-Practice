@@ -5,6 +5,15 @@ Files for various Swift/SwiftUI tutorials.
 
 # Projects
 
+[Card Animation](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Confetti-Animation)
+* SwiftUI Challenge 05 from [AJ Picard](https://youtu.be/npKhzhbu9Rs).
+* Rotating credit card animation.
+
+[Confetti Animation](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Confetti-Animation)
+* SwiftUI Challenge 04 from [AJ Picard](https://www.youtube.com/watch?v=GNd2VawbWrI)
+* Confetti Lottie animation fun.
+
+
 [Onboarding Project](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Onboarding-Project)
 * SwiftUI Challenge 03 from [AJ Picard](https://youtu.be/brUrG0JsBgw).
 * Experiment with animating the transition between onboarding screens.
