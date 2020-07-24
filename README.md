@@ -5,6 +5,10 @@ Files for various Swift/SwiftUI tutorials.
 
 # Projects
 
+[3D App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Dribbble-3D-App)
+* SwiftUI Challenge 10 from [AJ Picard](https://youtu.be/_ONAvK5g3QI)
+* Really hit home just how EVERYTHING can be a view in SwiftUI!
+
 [Card Animation](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Confetti-Animation)
 * SwiftUI Challenge 05 from [AJ Picard](https://youtu.be/npKhzhbu9Rs).
 * Rotating credit card animation.
@@ -12,7 +16,6 @@ Files for various Swift/SwiftUI tutorials.
 [Confetti Animation](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Confetti-Animation)
 * SwiftUI Challenge 04 from [AJ Picard](https://www.youtube.com/watch?v=GNd2VawbWrI)
 * Confetti Lottie animation fun.
-
 
 [Onboarding Project](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Onboarding-Project)
 * SwiftUI Challenge 03 from [AJ Picard](https://youtu.be/brUrG0JsBgw).
