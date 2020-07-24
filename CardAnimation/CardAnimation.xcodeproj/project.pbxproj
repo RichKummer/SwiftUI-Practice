@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B2978AD24CA6599003E133E /* BottomCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B2978AC24CA6599003E133E /* BottomCard.swift */; };
 		3B427D2B24C6585C0008C585 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B427D2A24C6585C0008C585 /* AppDelegate.swift */; };
 		3B427D2D24C6585C0008C585 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B427D2C24C6585C0008C585 /* SceneDelegate.swift */; };
 		3B427D2F24C6585C0008C585 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B427D2E24C6585C0008C585 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B2978AC24CA6599003E133E /* BottomCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCard.swift; sourceTree = "<group>"; };
 		3B427D2724C6585C0008C585 /* CardAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B427D2A24C6585C0008C585 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3B427D2C24C6585C0008C585 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 		3B427D2924C6585C0008C585 /* CardAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				3B2978AC24CA6599003E133E /* BottomCard.swift */,
 				3B427D2A24C6585C0008C585 /* AppDelegate.swift */,
 				3B427D2C24C6585C0008C585 /* SceneDelegate.swift */,
 				3B427D2E24C6585C0008C585 /* ContentView.swift */,
@@ -148,6 +151,7 @@
 			files = (
 				3B427D2B24C6585C0008C585 /* AppDelegate.swift in Sources */,
 				3B427D2D24C6585C0008C585 /* SceneDelegate.swift in Sources */,
+				3B2978AD24CA6599003E133E /* BottomCard.swift in Sources */,
 				3B427D2F24C6585C0008C585 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
