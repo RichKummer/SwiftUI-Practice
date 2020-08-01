@@ -7,6 +7,10 @@ Files for various Swift/SwiftUI tutorials.
 
 ### AJ Picard 
 
+
+[Exercise product](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Exercise-Product)
+* SwiftUI Challenge 08 from [AJ Picard](https://youtu.be/n1oTCFI5LR8)
+
 [3D App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Dribbble-3D-App)
 * SwiftUI Challenge 10 from [AJ Picard](https://youtu.be/_ONAvK5g3QI)
 * Really hit home just how EVERYTHING can be a view in SwiftUI!
