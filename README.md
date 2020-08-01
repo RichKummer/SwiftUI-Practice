@@ -5,9 +5,14 @@ Files for various Swift/SwiftUI tutorials.
 
 # Projects
 
+### AJ Picard 
+
 [3D App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Dribbble-3D-App)
 * SwiftUI Challenge 10 from [AJ Picard](https://youtu.be/_ONAvK5g3QI)
 * Really hit home just how EVERYTHING can be a view in SwiftUI!
+
+[Travel App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Travel-App)
+* SwiftUI Challenge 07 from [AJ Picard](https://youtu.be/r6xYTqK2Yyc)
 
 [Card Animation](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Confetti-Animation)
 * SwiftUI Challenge 05 from [AJ Picard](https://youtu.be/npKhzhbu9Rs).
@@ -29,8 +34,11 @@ Files for various Swift/SwiftUI tutorials.
 * SwiftUI Challenge 01 from [AJ Picard](https://youtu.be/htkEykBZikU)
 * Using Lottie to animate illustrations in the environment.
 
+### Paul Hudson
+
 [SpriteView](https://github.com/RichKummer/SwiftUI-Practice/tree/master/SpriteView)
 * SpriteView experiment using iOS14 based on Hacking with SwiftUI.
 
+### Angela Yu
 [Dicee App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Dicee)
 * Practice randomization app from [Angela Yu](https://www.udemy.com/course/ios-13-app-development-bootcamp/)'s Swift Course on Udemy.
