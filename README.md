@@ -7,6 +7,8 @@ Files for various Swift/SwiftUI tutorials.
 
 ### AJ Picard 
 
+[Consultancy App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Consultancy-App)
+* SwiftUI Challenge 09 from [AJ Picard](https://youtu.be/W5fRfKsUviE)
 
 [Exercise product](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Exercise-Product)
 * SwiftUI Challenge 08 from [AJ Picard](https://youtu.be/n1oTCFI5LR8)
