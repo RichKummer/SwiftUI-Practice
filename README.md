@@ -8,17 +8,17 @@ Files for various Swift/SwiftUI tutorials.
 ### AJ Picard 
 
 [Consultancy App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Consultancy-App)
-* SwiftUI Challenge 09 from [AJ Picard](https://youtu.be/W5fRfKsUviE)
+* SwiftUI Challenge 09 from [AJ Picard](https://youtu.be/W5fRfKsUviE).
 
 [Exercise product](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Exercise-Product)
-* SwiftUI Challenge 08 from [AJ Picard](https://youtu.be/n1oTCFI5LR8)
+* SwiftUI Challenge 08 from [AJ Picard](https://youtu.be/n1oTCFI5LR8).
 
 [3D App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Dribbble-3D-App)
-* SwiftUI Challenge 10 from [AJ Picard](https://youtu.be/_ONAvK5g3QI)
+* SwiftUI Challenge 10 from [AJ Picard](https://youtu.be/_ONAvK5g3QI).
 * Really hit home just how EVERYTHING can be a view in SwiftUI!
 
 [Travel App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Travel-App)
-* SwiftUI Challenge 07 from [AJ Picard](https://youtu.be/r6xYTqK2Yyc)
+* SwiftUI Challenge 07 from [AJ Picard](https://youtu.be/r6xYTqK2Yyc).
 
 [Card Animation](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Confetti-Animation)
 * SwiftUI Challenge 05 from [AJ Picard](https://youtu.be/npKhzhbu9Rs).
@@ -37,7 +37,7 @@ Files for various Swift/SwiftUI tutorials.
 * Sheet transitions and visual layout.
 
 [Cyril Login](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Cyril%20Login)
-* SwiftUI Challenge 01 from [AJ Picard](https://youtu.be/htkEykBZikU)
+* SwiftUI Challenge 01 from [AJ Picard](https://youtu.be/htkEykBZikU).
 * Using Lottie to animate illustrations in the environment.
 
 ### Paul Hudson
