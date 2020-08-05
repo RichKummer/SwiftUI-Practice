@@ -7,6 +7,10 @@ Files for various Swift/SwiftUI tutorials.
 
 ### AJ Picard 
 
+[Neumorph-Practice](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Neumorph-Practice)
+* SwiftUI Challenge 12 from [AJ Picard](https://youtu.be/hLFKkpcosqg)
+* Had fun replicating neumorphic elements in code!
+
 [Consultancy App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Consultancy-App)
 * SwiftUI Challenge 09 from [AJ Picard](https://youtu.be/W5fRfKsUviE).
 
