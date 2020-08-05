@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B7AEC3F24DB518F00A6ACD2 /* Neumorph_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC3E24DB518F00A6ACD2 /* Neumorph_PracticeApp.swift */; };
+		3B7AEC4124DB518F00A6ACD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC4024DB518F00A6ACD2 /* ContentView.swift */; };
+		3B7AEC4324DB519100A6ACD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7AEC4224DB519100A6ACD2 /* Assets.xcassets */; };
+		3B7AEC4624DB519100A6ACD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B7AEC4524DB519100A6ACD2 /* Preview Assets.xcassets */; };
+		3B7AEC5124DB519100A6ACD2 /* Neumorph_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC5024DB519100A6ACD2 /* Neumorph_PracticeTests.swift */; };
+		3B7AEC5C24DB519100A6ACD2 /* Neumorph_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC5B24DB519100A6ACD2 /* Neumorph_PracticeUITests.swift */; };
+		3B7AEC6A24DB53BE00A6ACD2 /* Lightswitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC6924DB53BE00A6ACD2 /* Lightswitch.swift */; };
+		3B7AEC6C24DB5B5400A6ACD2 /* AirConditioningButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC6B24DB5B5400A6ACD2 /* AirConditioningButton.swift */; };
+		3B7AEC6E24DB5E8000A6ACD2 /* AddMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC6D24DB5E8000A6ACD2 /* AddMore.swift */; };
+		3B7AEC7024DB60AA00A6ACD2 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC6F24DB60AA00A6ACD2 /* Scenario.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B7AEC4D24DB519100A6ACD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7AEC3324DB518F00A6ACD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7AEC3A24DB518F00A6ACD2;
+			remoteInfo = "Neumorph-Practice";
+		};
+		3B7AEC5824DB519100A6ACD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B7AEC3324DB518F00A6ACD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B7AEC3A24DB518F00A6ACD2;
+			remoteInfo = "Neumorph-Practice";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B7AEC3B24DB518F00A6ACD2 /* Neumorph-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Neumorph-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7AEC3E24DB518F00A6ACD2 /* Neumorph_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorph_PracticeApp.swift; sourceTree = "<group>"; };
+		3B7AEC4024DB518F00A6ACD2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3B7AEC4224DB519100A6ACD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B7AEC4524DB519100A6ACD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3B7AEC4724DB519100A6ACD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7AEC4C24DB519100A6ACD2 /* Neumorph-PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neumorph-PracticeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7AEC5024DB519100A6ACD2 /* Neumorph_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorph_PracticeTests.swift; sourceTree = "<group>"; };
+		3B7AEC5224DB519100A6ACD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7AEC5724DB519100A6ACD2 /* Neumorph-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Neumorph-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B7AEC5B24DB519100A6ACD2 /* Neumorph_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Neumorph_PracticeUITests.swift; sourceTree = "<group>"; };
+		3B7AEC5D24DB519100A6ACD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B7AEC6924DB53BE00A6ACD2 /* Lightswitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lightswitch.swift; sourceTree = "<group>"; };
+		3B7AEC6B24DB5B5400A6ACD2 /* AirConditioningButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditioningButton.swift; sourceTree = "<group>"; };
+		3B7AEC6D24DB5E8000A6ACD2 /* AddMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMore.swift; sourceTree = "<group>"; };
+		3B7AEC6F24DB60AA00A6ACD2 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B7AEC3824DB518F00A6ACD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7AEC4924DB519100A6ACD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7AEC5424DB519100A6ACD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B7AEC3224DB518F00A6ACD2 = {
+			isa = PBXGroup;
+			children = (
+				3B7AEC3D24DB518F00A6ACD2 /* Neumorph-Practice */,
+				3B7AEC4F24DB519100A6ACD2 /* Neumorph-PracticeTests */,
+				3B7AEC5A24DB519100A6ACD2 /* Neumorph-PracticeUITests */,
+				3B7AEC3C24DB518F00A6ACD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B7AEC3C24DB518F00A6ACD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AEC3B24DB518F00A6ACD2 /* Neumorph-Practice.app */,
+				3B7AEC4C24DB519100A6ACD2 /* Neumorph-PracticeTests.xctest */,
+				3B7AEC5724DB519100A6ACD2 /* Neumorph-PracticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B7AEC3D24DB518F00A6ACD2 /* Neumorph-Practice */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AEC3E24DB518F00A6ACD2 /* Neumorph_PracticeApp.swift */,
+				3B7AEC4024DB518F00A6ACD2 /* ContentView.swift */,
+				3B7AEC6F24DB60AA00A6ACD2 /* Scenario.swift */,
+				3B7AEC6D24DB5E8000A6ACD2 /* AddMore.swift */,
+				3B7AEC6B24DB5B5400A6ACD2 /* AirConditioningButton.swift */,
+				3B7AEC6924DB53BE00A6ACD2 /* Lightswitch.swift */,
+				3B7AEC4224DB519100A6ACD2 /* Assets.xcassets */,
+				3B7AEC4724DB519100A6ACD2 /* Info.plist */,
+				3B7AEC4424DB519100A6ACD2 /* Preview Content */,
+			);
+			path = "Neumorph-Practice";
+			sourceTree = "<group>";
+		};
+		3B7AEC4424DB519100A6ACD2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AEC4524DB519100A6ACD2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3B7AEC4F24DB519100A6ACD2 /* Neumorph-PracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AEC5024DB519100A6ACD2 /* Neumorph_PracticeTests.swift */,
+				3B7AEC5224DB519100A6ACD2 /* Info.plist */,
+			);
+			path = "Neumorph-PracticeTests";
+			sourceTree = "<group>";
+		};
+		3B7AEC5A24DB519100A6ACD2 /* Neumorph-PracticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B7AEC5B24DB519100A6ACD2 /* Neumorph_PracticeUITests.swift */,
+				3B7AEC5D24DB519100A6ACD2 /* Info.plist */,
+			);
+			path = "Neumorph-PracticeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B7AEC3A24DB518F00A6ACD2 /* Neumorph-Practice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7AEC6024DB519100A6ACD2 /* Build configuration list for PBXNativeTarget "Neumorph-Practice" */;
+			buildPhases = (
+				3B7AEC3724DB518F00A6ACD2 /* Sources */,
+				3B7AEC3824DB518F00A6ACD2 /* Frameworks */,
+				3B7AEC3924DB518F00A6ACD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Neumorph-Practice";
+			productName = "Neumorph-Practice";
+			productReference = 3B7AEC3B24DB518F00A6ACD2 /* Neumorph-Practice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B7AEC4B24DB519100A6ACD2 /* Neumorph-PracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7AEC6324DB519100A6ACD2 /* Build configuration list for PBXNativeTarget "Neumorph-PracticeTests" */;
+			buildPhases = (
+				3B7AEC4824DB519100A6ACD2 /* Sources */,
+				3B7AEC4924DB519100A6ACD2 /* Frameworks */,
+				3B7AEC4A24DB519100A6ACD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7AEC4E24DB519100A6ACD2 /* PBXTargetDependency */,
+			);
+			name = "Neumorph-PracticeTests";
+			productName = "Neumorph-PracticeTests";
+			productReference = 3B7AEC4C24DB519100A6ACD2 /* Neumorph-PracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B7AEC5624DB519100A6ACD2 /* Neumorph-PracticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B7AEC6624DB519100A6ACD2 /* Build configuration list for PBXNativeTarget "Neumorph-PracticeUITests" */;
+			buildPhases = (
+				3B7AEC5324DB519100A6ACD2 /* Sources */,
+				3B7AEC5424DB519100A6ACD2 /* Frameworks */,
+				3B7AEC5524DB519100A6ACD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B7AEC5924DB519100A6ACD2 /* PBXTargetDependency */,
+			);
+			name = "Neumorph-PracticeUITests";
+			productName = "Neumorph-PracticeUITests";
+			productReference = 3B7AEC5724DB519100A6ACD2 /* Neumorph-PracticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B7AEC3324DB518F00A6ACD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3B7AEC3A24DB518F00A6ACD2 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3B7AEC4B24DB519100A6ACD2 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3B7AEC3A24DB518F00A6ACD2;
+					};
+					3B7AEC5624DB519100A6ACD2 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3B7AEC3A24DB518F00A6ACD2;
+					};
+				};
+			};
+			buildConfigurationList = 3B7AEC3624DB518F00A6ACD2 /* Build configuration list for PBXProject "Neumorph-Practice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B7AEC3224DB518F00A6ACD2;
+			productRefGroup = 3B7AEC3C24DB518F00A6ACD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B7AEC3A24DB518F00A6ACD2 /* Neumorph-Practice */,
+				3B7AEC4B24DB519100A6ACD2 /* Neumorph-PracticeTests */,
+				3B7AEC5624DB519100A6ACD2 /* Neumorph-PracticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B7AEC3924DB518F00A6ACD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7AEC4624DB519100A6ACD2 /* Preview Assets.xcassets in Resources */,
+				3B7AEC4324DB519100A6ACD2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7AEC4A24DB519100A6ACD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7AEC5524DB519100A6ACD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B7AEC3724DB518F00A6ACD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7AEC4124DB518F00A6ACD2 /* ContentView.swift in Sources */,
+				3B7AEC6E24DB5E8000A6ACD2 /* AddMore.swift in Sources */,
+				3B7AEC6A24DB53BE00A6ACD2 /* Lightswitch.swift in Sources */,
+				3B7AEC7024DB60AA00A6ACD2 /* Scenario.swift in Sources */,
+				3B7AEC3F24DB518F00A6ACD2 /* Neumorph_PracticeApp.swift in Sources */,
+				3B7AEC6C24DB5B5400A6ACD2 /* AirConditioningButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7AEC4824DB519100A6ACD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7AEC5124DB519100A6ACD2 /* Neumorph_PracticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B7AEC5324DB519100A6ACD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7AEC5C24DB519100A6ACD2 /* Neumorph_PracticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B7AEC4E24DB519100A6ACD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7AEC3A24DB518F00A6ACD2 /* Neumorph-Practice */;
+			targetProxy = 3B7AEC4D24DB519100A6ACD2 /* PBXContainerItemProxy */;
+		};
+		3B7AEC5924DB519100A6ACD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B7AEC3A24DB518F00A6ACD2 /* Neumorph-Practice */;
+			targetProxy = 3B7AEC5824DB519100A6ACD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3B7AEC5E24DB519100A6ACD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3B7AEC5F24DB519100A6ACD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B7AEC6124DB519100A6ACD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorph-Practice/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorph-Practice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B7AEC6224DB519100A6ACD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Neumorph-Practice/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Neumorph-Practice/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-Practice";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3B7AEC6424DB519100A6ACD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Neumorph-PracticeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neumorph-Practice.app/Neumorph-Practice";
+			};
+			name = Debug;
+		};
+		3B7AEC6524DB519100A6ACD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Neumorph-PracticeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-PracticeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neumorph-Practice.app/Neumorph-Practice";
+			};
+			name = Release;
+		};
+		3B7AEC6724DB519100A6ACD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Neumorph-PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Neumorph-Practice";
+			};
+			name = Debug;
+		};
+		3B7AEC6824DB519100A6ACD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Neumorph-PracticeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-PracticeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Neumorph-Practice";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B7AEC3624DB518F00A6ACD2 /* Build configuration list for PBXProject "Neumorph-Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7AEC5E24DB519100A6ACD2 /* Debug */,
+				3B7AEC5F24DB519100A6ACD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7AEC6024DB519100A6ACD2 /* Build configuration list for PBXNativeTarget "Neumorph-Practice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7AEC6124DB519100A6ACD2 /* Debug */,
+				3B7AEC6224DB519100A6ACD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7AEC6324DB519100A6ACD2 /* Build configuration list for PBXNativeTarget "Neumorph-PracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7AEC6424DB519100A6ACD2 /* Debug */,
+				3B7AEC6524DB519100A6ACD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B7AEC6624DB519100A6ACD2 /* Build configuration list for PBXNativeTarget "Neumorph-PracticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B7AEC6724DB519100A6ACD2 /* Debug */,
+				3B7AEC6824DB519100A6ACD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B7AEC3324DB518F00A6ACD2 /* Project object */;
+}
