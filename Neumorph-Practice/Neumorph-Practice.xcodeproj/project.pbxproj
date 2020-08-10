@@ -17,6 +17,7 @@
 		3B7AEC6C24DB5B5400A6ACD2 /* AirConditioningButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC6B24DB5B5400A6ACD2 /* AirConditioningButton.swift */; };
 		3B7AEC6E24DB5E8000A6ACD2 /* AddMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC6D24DB5E8000A6ACD2 /* AddMore.swift */; };
 		3B7AEC7024DB60AA00A6ACD2 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7AEC6F24DB60AA00A6ACD2 /* Scenario.swift */; };
+		3B87587624E1E83A00315DD6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B87587524E1E83A00315DD6 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3B7AEC6B24DB5B5400A6ACD2 /* AirConditioningButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirConditioningButton.swift; sourceTree = "<group>"; };
 		3B7AEC6D24DB5E8000A6ACD2 /* AddMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMore.swift; sourceTree = "<group>"; };
 		3B7AEC6F24DB60AA00A6ACD2 /* Scenario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+		3B87587524E1E83A00315DD6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		3B7AEC3224DB518F00A6ACD2 = {
 			isa = PBXGroup;
 			children = (
+				3B87587524E1E83A00315DD6 /* Default-568h@2x.png */,
 				3B7AEC3D24DB518F00A6ACD2 /* Neumorph-Practice */,
 				3B7AEC4F24DB519100A6ACD2 /* Neumorph-PracticeTests */,
 				3B7AEC5A24DB519100A6ACD2 /* Neumorph-PracticeUITests */,
@@ -247,6 +250,7 @@
 			files = (
 				3B7AEC4624DB519100A6ACD2 /* Preview Assets.xcassets in Resources */,
 				3B7AEC4324DB519100A6ACD2 /* Assets.xcassets in Resources */,
+				3B87587624E1E83A00315DD6 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -480,7 +484,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S9YUH3JW6;
 				INFOPLIST_FILE = "Neumorph-PracticeTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -489,7 +493,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-PracticeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neumorph-Practice.app/Neumorph-Practice";
 			};
 			name = Debug;
@@ -502,7 +506,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S9YUH3JW6;
 				INFOPLIST_FILE = "Neumorph-PracticeTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -511,7 +515,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Neumorph-PracticeTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Neumorph-Practice.app/Neumorph-Practice";
 			};
 			name = Release;
