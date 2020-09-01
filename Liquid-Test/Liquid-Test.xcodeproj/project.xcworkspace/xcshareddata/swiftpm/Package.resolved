@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Liquid",
+        "repositoryURL": "https://github.com/maustinstar/liquid.git",
+        "state": {
+          "branch": null,
+          "revision": "0fb5b5a2aa34dc5d7c59d1afea33497f25b1aee9",
+          "version": "0.0.1"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

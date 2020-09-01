@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BC4220024F3175200AF72DD /* Liquid_TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC421FF24F3175200AF72DD /* Liquid_TestApp.swift */; };
+		3BC4220224F3175200AF72DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4220124F3175200AF72DD /* ContentView.swift */; };
+		3BC4220424F3175300AF72DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC4220324F3175300AF72DD /* Assets.xcassets */; };
+		3BC4220724F3175300AF72DD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BC4220624F3175300AF72DD /* Preview Assets.xcassets */; };
+		3BC4221224F3175400AF72DD /* Liquid_TestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4221124F3175400AF72DD /* Liquid_TestTests.swift */; };
+		3BC4221D24F3175400AF72DD /* Liquid_TestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BC4221C24F3175400AF72DD /* Liquid_TestUITests.swift */; };
+		3BC4222C24F3178600AF72DD /* Liquid in Frameworks */ = {isa = PBXBuildFile; productRef = 3BC4222B24F3178600AF72DD /* Liquid */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3BC4220E24F3175400AF72DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC421F424F3175200AF72DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC421FB24F3175200AF72DD;
+			remoteInfo = "Liquid-Test";
+		};
+		3BC4221924F3175400AF72DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3BC421F424F3175200AF72DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3BC421FB24F3175200AF72DD;
+			remoteInfo = "Liquid-Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BC421FC24F3175200AF72DD /* Liquid-Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Liquid-Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC421FF24F3175200AF72DD /* Liquid_TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liquid_TestApp.swift; sourceTree = "<group>"; };
+		3BC4220124F3175200AF72DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3BC4220324F3175300AF72DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3BC4220624F3175300AF72DD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3BC4220824F3175300AF72DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC4220D24F3175400AF72DD /* Liquid-TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liquid-TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC4221124F3175400AF72DD /* Liquid_TestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liquid_TestTests.swift; sourceTree = "<group>"; };
+		3BC4221324F3175400AF72DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BC4221824F3175400AF72DD /* Liquid-TestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Liquid-TestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC4221C24F3175400AF72DD /* Liquid_TestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Liquid_TestUITests.swift; sourceTree = "<group>"; };
+		3BC4221E24F3175400AF72DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BC421F924F3175200AF72DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC4222C24F3178600AF72DD /* Liquid in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC4220A24F3175400AF72DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC4221524F3175400AF72DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BC421F324F3175200AF72DD = {
+			isa = PBXGroup;
+			children = (
+				3BC421FE24F3175200AF72DD /* Liquid-Test */,
+				3BC4221024F3175400AF72DD /* Liquid-TestTests */,
+				3BC4221B24F3175400AF72DD /* Liquid-TestUITests */,
+				3BC421FD24F3175200AF72DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BC421FD24F3175200AF72DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BC421FC24F3175200AF72DD /* Liquid-Test.app */,
+				3BC4220D24F3175400AF72DD /* Liquid-TestTests.xctest */,
+				3BC4221824F3175400AF72DD /* Liquid-TestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BC421FE24F3175200AF72DD /* Liquid-Test */ = {
+			isa = PBXGroup;
+			children = (
+				3BC421FF24F3175200AF72DD /* Liquid_TestApp.swift */,
+				3BC4220124F3175200AF72DD /* ContentView.swift */,
+				3BC4220324F3175300AF72DD /* Assets.xcassets */,
+				3BC4220824F3175300AF72DD /* Info.plist */,
+				3BC4220524F3175300AF72DD /* Preview Content */,
+			);
+			path = "Liquid-Test";
+			sourceTree = "<group>";
+		};
+		3BC4220524F3175300AF72DD /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4220624F3175300AF72DD /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3BC4221024F3175400AF72DD /* Liquid-TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4221124F3175400AF72DD /* Liquid_TestTests.swift */,
+				3BC4221324F3175400AF72DD /* Info.plist */,
+			);
+			path = "Liquid-TestTests";
+			sourceTree = "<group>";
+		};
+		3BC4221B24F3175400AF72DD /* Liquid-TestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4221C24F3175400AF72DD /* Liquid_TestUITests.swift */,
+				3BC4221E24F3175400AF72DD /* Info.plist */,
+			);
+			path = "Liquid-TestUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BC421FB24F3175200AF72DD /* Liquid-Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC4222124F3175400AF72DD /* Build configuration list for PBXNativeTarget "Liquid-Test" */;
+			buildPhases = (
+				3BC421F824F3175200AF72DD /* Sources */,
+				3BC421F924F3175200AF72DD /* Frameworks */,
+				3BC421FA24F3175200AF72DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Liquid-Test";
+			packageProductDependencies = (
+				3BC4222B24F3178600AF72DD /* Liquid */,
+			);
+			productName = "Liquid-Test";
+			productReference = 3BC421FC24F3175200AF72DD /* Liquid-Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3BC4220C24F3175400AF72DD /* Liquid-TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC4222424F3175400AF72DD /* Build configuration list for PBXNativeTarget "Liquid-TestTests" */;
+			buildPhases = (
+				3BC4220924F3175400AF72DD /* Sources */,
+				3BC4220A24F3175400AF72DD /* Frameworks */,
+				3BC4220B24F3175400AF72DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC4220F24F3175400AF72DD /* PBXTargetDependency */,
+			);
+			name = "Liquid-TestTests";
+			productName = "Liquid-TestTests";
+			productReference = 3BC4220D24F3175400AF72DD /* Liquid-TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3BC4221724F3175400AF72DD /* Liquid-TestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC4222724F3175400AF72DD /* Build configuration list for PBXNativeTarget "Liquid-TestUITests" */;
+			buildPhases = (
+				3BC4221424F3175400AF72DD /* Sources */,
+				3BC4221524F3175400AF72DD /* Frameworks */,
+				3BC4221624F3175400AF72DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3BC4221A24F3175400AF72DD /* PBXTargetDependency */,
+			);
+			name = "Liquid-TestUITests";
+			productName = "Liquid-TestUITests";
+			productReference = 3BC4221824F3175400AF72DD /* Liquid-TestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BC421F424F3175200AF72DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					3BC421FB24F3175200AF72DD = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					3BC4220C24F3175400AF72DD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3BC421FB24F3175200AF72DD;
+					};
+					3BC4221724F3175400AF72DD = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 3BC421FB24F3175200AF72DD;
+					};
+				};
+			};
+			buildConfigurationList = 3BC421F724F3175200AF72DD /* Build configuration list for PBXProject "Liquid-Test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3BC421F324F3175200AF72DD;
+			packageReferences = (
+				3BC4222A24F3178600AF72DD /* XCRemoteSwiftPackageReference "liquid" */,
+			);
+			productRefGroup = 3BC421FD24F3175200AF72DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BC421FB24F3175200AF72DD /* Liquid-Test */,
+				3BC4220C24F3175400AF72DD /* Liquid-TestTests */,
+				3BC4221724F3175400AF72DD /* Liquid-TestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC421FA24F3175200AF72DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC4220724F3175300AF72DD /* Preview Assets.xcassets in Resources */,
+				3BC4220424F3175300AF72DD /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC4220B24F3175400AF72DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC4221624F3175400AF72DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BC421F824F3175200AF72DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC4220224F3175200AF72DD /* ContentView.swift in Sources */,
+				3BC4220024F3175200AF72DD /* Liquid_TestApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC4220924F3175400AF72DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC4221224F3175400AF72DD /* Liquid_TestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BC4221424F3175400AF72DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BC4221D24F3175400AF72DD /* Liquid_TestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3BC4220F24F3175400AF72DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC421FB24F3175200AF72DD /* Liquid-Test */;
+			targetProxy = 3BC4220E24F3175400AF72DD /* PBXContainerItemProxy */;
+		};
+		3BC4221A24F3175400AF72DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3BC421FB24F3175200AF72DD /* Liquid-Test */;
+			targetProxy = 3BC4221924F3175400AF72DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3BC4221F24F3175400AF72DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3BC4222024F3175400AF72DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BC4222224F3175400AF72DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Liquid-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Liquid-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Liquid-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3BC4222324F3175400AF72DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Liquid-Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Liquid-Test/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Liquid-Test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3BC4222524F3175400AF72DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Liquid-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Liquid-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liquid-Test.app/Liquid-Test";
+			};
+			name = Debug;
+		};
+		3BC4222624F3175400AF72DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Liquid-TestTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Liquid-TestTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Liquid-Test.app/Liquid-Test";
+			};
+			name = Release;
+		};
+		3BC4222824F3175400AF72DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Liquid-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Liquid-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Liquid-Test";
+			};
+			name = Debug;
+		};
+		3BC4222924F3175400AF72DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S9YUH3JW6;
+				INFOPLIST_FILE = "Liquid-TestUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Esperdyne.Liquid-TestUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Liquid-Test";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BC421F724F3175200AF72DD /* Build configuration list for PBXProject "Liquid-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC4221F24F3175400AF72DD /* Debug */,
+				3BC4222024F3175400AF72DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC4222124F3175400AF72DD /* Build configuration list for PBXNativeTarget "Liquid-Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC4222224F3175400AF72DD /* Debug */,
+				3BC4222324F3175400AF72DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC4222424F3175400AF72DD /* Build configuration list for PBXNativeTarget "Liquid-TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC4222524F3175400AF72DD /* Debug */,
+				3BC4222624F3175400AF72DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC4222724F3175400AF72DD /* Build configuration list for PBXNativeTarget "Liquid-TestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BC4222824F3175400AF72DD /* Debug */,
+				3BC4222924F3175400AF72DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3BC4222A24F3178600AF72DD /* XCRemoteSwiftPackageReference "liquid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maustinstar/liquid.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3BC4222B24F3178600AF72DD /* Liquid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3BC4222A24F3178600AF72DD /* XCRemoteSwiftPackageReference "liquid" */;
+			productName = Liquid;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3BC421F424F3175200AF72DD /* Project object */;
+}
