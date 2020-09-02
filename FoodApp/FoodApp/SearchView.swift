@@ -18,9 +18,9 @@ struct SearchView: View {
                 Text("Search")
                 Spacer()
             }
-            .padding(.leading, 20)
+            .padding(.leading, 30)
         }
-        .frame(width: 325, height: 54)
+        .frame(width: 355, height: 54)
     }
 }
 

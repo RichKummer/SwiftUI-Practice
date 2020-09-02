@@ -18,6 +18,7 @@
 		3B7F87D524FEE73E00D9253F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F87D424FEE73E00D9253F /* SearchView.swift */; };
 		3B7F87D724FEE87500D9253F /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F87D624FEE87500D9253F /* FilterView.swift */; };
 		3B7F87D924FEEC0400D9253F /* Tabbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B7F87D824FEEC0400D9253F /* Tabbar.swift */; };
+		3BE70D622500445100EF3C49 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE70D612500445100EF3C49 /* Cards.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		3B7F87D424FEE73E00D9253F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		3B7F87D624FEE87500D9253F /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
 		3B7F87D824FEEC0400D9253F /* Tabbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tabbar.swift; sourceTree = "<group>"; };
+		3BE70D612500445100EF3C49 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				3B7F87A524FEE39600D9253F /* FoodAppApp.swift */,
 				3B7F87A724FEE39600D9253F /* ContentView.swift */,
+				3BE70D612500445100EF3C49 /* Cards.swift */,
 				3B7F87D824FEEC0400D9253F /* Tabbar.swift */,
 				3B7F87D624FEE87500D9253F /* FilterView.swift */,
 				3B7F87D424FEE73E00D9253F /* SearchView.swift */,
@@ -277,6 +280,7 @@
 				3B7F87D924FEEC0400D9253F /* Tabbar.swift in Sources */,
 				3B7F87D524FEE73E00D9253F /* SearchView.swift in Sources */,
 				3B7F87A824FEE39600D9253F /* ContentView.swift in Sources */,
+				3BE70D622500445100EF3C49 /* Cards.swift in Sources */,
 				3B7F87D124FEE3CE00D9253F /* HeaderView.swift in Sources */,
 				3B7F87A624FEE39600D9253F /* FoodAppApp.swift in Sources */,
 				3B7F87D724FEE87500D9253F /* FilterView.swift in Sources */,
