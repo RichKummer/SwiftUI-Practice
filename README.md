@@ -7,6 +7,9 @@ Files for various Swift/SwiftUI tutorials.
 
 ### AJ Picard 
 
+[Smart Thermostat App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Smart-Thermostat)
+* SwiftUI Challenge Challenge 17 from [AJ Picard](https://youtu.be/V7khYVUiEMM)
+* Working with shadows and gradients more.
 
 [Food App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/FoodApp)
 * SwiftUI Challenge 16 from [AJ Picard](https://youtu.be/rIskpGKm5i0)
