@@ -29,8 +29,8 @@ struct LivingRoomCard: View {
                 }
                 .padding(.horizontal, 28)
                 .padding(.bottom, 20)
-                VStack (spacing: 20) {
-                    HStack (spacing: 20){
+                VStack (spacing: 24) {
+                    HStack (spacing: 24){
                         //MARK: First row
                         ZStack {
                             HStack (spacing: 16){
@@ -48,10 +48,10 @@ struct LivingRoomCard: View {
                                 }
                             }
                         }
-                        .frame(width: 214, height: 130)
+                        .frame(width: 200, height: 115)
                         .background(LinearGradient(gradient: Gradient(colors: [Color(#colorLiteral(red: 0.4287705719, green: 0.3964984417, blue: 0.9591266513, alpha: 1)), Color(#colorLiteral(red: 0.5305125713, green: 0.5448141098, blue: 0.9930323958, alpha: 1))]), startPoint: .leading, endPoint: .trailing))
                         .foregroundColor(.white)
-                        .cornerRadius(25)
+                        .cornerRadius(20)
                         .shadow(color: Color(#colorLiteral(red: 0.5305125713, green: 0.5448141098, blue: 0.9930323958, alpha: 1)).opacity(0.5), radius: 20, x: 0, y: 10)
                         
                         ZStack {
@@ -60,13 +60,13 @@ struct LivingRoomCard: View {
                                     .font(.system(size: 30))
                                     .foregroundColor(Color(#colorLiteral(red: 0.4921187162, green: 0.4633818865, blue: 0.9621564746, alpha: 1)))
                                 Text("Temp.")
-                                    .offset(y:20)
+                                    .offset(y:10)
                                     .foregroundColor(Color(#colorLiteral(red: 0.1919391633, green: 0.1919759413, blue: 0.1919368599, alpha: 1)))
                             }
                         }
-                        .frame(width: 100, height: 130)
+                        .frame(width: 95, height: 115)
                         .background(Color.white)
-                        .cornerRadius(25)
+                        .cornerRadius(20)
                         .shadow(color: Color.black.opacity(0.15), radius: 20, x: 0, y: 10)
                     }
                     HStack (spacing: 20){
@@ -77,13 +77,13 @@ struct LivingRoomCard: View {
                                     .font(.system(size: 30))
                                     .foregroundColor(Color(#colorLiteral(red: 0.4921187162, green: 0.4633818865, blue: 0.9621564746, alpha: 1)))
                                 Text("Wifi")
-                                    .offset(y:20)
+                                    .offset(y:10)
                                     .foregroundColor(Color(#colorLiteral(red: 0.1919391633, green: 0.1919759413, blue: 0.1919368599, alpha: 1)))
                             }
                         }
-                        .frame(width: 100, height: 130)
+                        .frame(width: 95, height: 110)
                         .background(Color.white)
-                        .cornerRadius(25)
+                        .cornerRadius(20)
                         .shadow(color: Color.black.opacity(0.15), radius: 20, x: 0, y: 10)
                         
                         ZStack {
@@ -92,13 +92,13 @@ struct LivingRoomCard: View {
                                     .font(.system(size: 30))
                                     .foregroundColor(Color(#colorLiteral(red: 0.4921187162, green: 0.4633818865, blue: 0.9621564746, alpha: 1)))
                                 Text("Air-con.")
-                                    .offset(y:20)
+                                    .offset(y:10)
                                     .foregroundColor(Color(#colorLiteral(red: 0.1919391633, green: 0.1919759413, blue: 0.1919368599, alpha: 1)))
                             }
                         }
-                        .frame(width: 100, height: 130)
+                        .frame(width: 95, height: 110)
                         .background(Color.white)
-                        .cornerRadius(25)
+                        .cornerRadius(20)
                         .shadow(color: Color.black.opacity(0.15), radius: 20, x: 0, y: 10)
                         
                         ZStack {
@@ -107,25 +107,26 @@ struct LivingRoomCard: View {
                                     .font(.system(size: 30))
                                     .foregroundColor(Color(#colorLiteral(red: 0.4921187162, green: 0.4633818865, blue: 0.9621564746, alpha: 1)))
                                 Text("Humid.")
-                                    .offset(y:20)
+                                    .offset(y:10)
                                     .foregroundColor(Color(#colorLiteral(red: 0.1919391633, green: 0.1919759413, blue: 0.1919368599, alpha: 1)))
                             }
                         }
-                        .frame(width: 100, height: 130)
+                        .frame(width: 95, height: 110)
                         .background(Color.white)
-                        .cornerRadius(25)
+                        .cornerRadius(20)
                         .shadow(color: Color.black.opacity(0.15), radius: 20, x: 0, y: 10)
                     }
                 }
             }
         }
-        .frame(height: 410)
+        .frame(height: 380)
         .background(Color.white)
         .cornerRadius(30)
         .shadow(color: Color.black.opacity(0.15), radius: 20, x: 0, y: 10)
         .padding(.horizontal, 20)
 
     }
+    
 }
 
 struct LivingRoomCard_Previews: PreviewProvider {

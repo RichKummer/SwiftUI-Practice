@@ -9,11 +9,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Header()
-            LivingRoom()
-            LivingRoomCard()
+        ZStack {
+            VStack {
+                Header()
+                    
+                LivingRoom()
+                    .offset(y: 15)
+                LivingRoomCard()
+                    .offset(y: 35)
+            }
         }
+        .background(Color(#colorLiteral(red: 0.9998916984, green: 1, blue: 0.9998809695, alpha: 1)))
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        
     }
 }
 
