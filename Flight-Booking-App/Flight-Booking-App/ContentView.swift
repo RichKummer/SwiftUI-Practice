@@ -11,6 +11,9 @@ struct ContentView: View {
     var body: some View {
         VStack {
             HeaderText()
+            LuggageSlider()
+                .padding(.top, 20)
+            Deselect()
         }
     }
 }
