@@ -7,6 +7,9 @@ Files for various Swift/SwiftUI tutorials.
 
 ### AJ Picard 
 
+[Flight Book App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Flight-Booking-App)
+* SwiftUI Challenge 18 from [AJ Picard](https://youtu.be/ng_RZhXcWs8)
+
 [Smart Thermostat App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Smart-Thermostat)
 * SwiftUI Challenge Challenge 17 from [AJ Picard](https://youtu.be/V7khYVUiEMM)
 * Working with shadows and gradients more.
