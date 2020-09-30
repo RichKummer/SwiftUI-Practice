@@ -10,10 +10,14 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-            HeaderText()
+            HeaderSection()
+                .offset(y: -38)
+            HeaderText().padding(.vertical, 10)
+                .offset(y: -15)
             LuggageSlider()
-                .padding(.top, 20)
+                .padding(.top, 10)
             Deselect()
+                .padding(.top, 10)
         }
     }
 }
@@ -28,7 +32,7 @@ struct HeaderText: View {
     var body: some View {
         HStack {
             Text("Luggage Information")
-                .font(.system(size: 24, weight: .bold, design: .default))
+                .font(.system(size: 19, weight: .bold, design: .default))
             Spacer()
         }.padding(.horizontal, 30)
     }
