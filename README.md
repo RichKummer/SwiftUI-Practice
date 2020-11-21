@@ -7,6 +7,10 @@ Files for various Swift/SwiftUI tutorials.
 
 ### AJ Picard 
 
+[Welcome Home App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Welcome-Home)
+* SwiftUI Challenge 24 from [AJ Picard](https://youtu.be/fhvHINZBPF8)
+* Returning to some onTap animations.
+
 [Flight Book App](https://github.com/RichKummer/SwiftUI-Practice/tree/master/Flight-Booking-App)
 * SwiftUI Challenge 18 from [AJ Picard](https://youtu.be/ng_RZhXcWs8)
 
